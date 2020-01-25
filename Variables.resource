@@ -23,12 +23,12 @@ ${btn_menu_testiing}                xpath=//*[@id="online-testing"]
 
 # Selector
 ${selector_year}                    xpath=//*[@id="select_crs_year"]
-${selector_crs_term}                xpath=//*[@id="select_crs_term"]
+${selector_term}                xpath=//*[@id="select_crs_term"]
 
 # --------------------------------- Report examination --------------------------------------- #
 # button
-${btn_show_list_exam}                xpath=//*[@id="select_crs_term"]                       # กดปุ่มแสดงรายการการสอบ
-${btn_show_list_exam_info}           xpath=//*[@id="list_exam"]/tr/td[7]/a[1]               # กดปุ่มแสดงรายการการสอบ
+${btn_show_list_exam}                xpath=//*[@id="dataTable4"]/tbody/tr/td[5]/center/a                       # กดปุ่มแสดงรายการการสอบ
+${btn_show_list_exam_info}           xpath=//*[@id="list_exam"]/tr/td[7]/a[1]               # กดปุ่มแสดงรายเอียดการการสอบ
 ${btn_export}                        xpath=//*[@id="list_exam"]/tr/td[7]/a[2]               # คลิกปุ่มเพื่อส่งออกเอกสาร
 ${btn_show_detail_answer}            xpath=//*[@id="dataTable4"]/tbody/tr/td[5]/a           # คลิกปุ่มเพื่อดูรายละเอียดของคำตอบ
 
@@ -37,3 +37,5 @@ ${btn_back_to_list_subject}          xpath=//*[@id="back_to_list_subject"]      
 ${btn_back_to_main}                  xpath=//*[@id="back_to_main"]                  # กดปุ่มกลับสู่แสดงรายการการสอบ
 
 # -------------------------------------------------------------------------------------------- #
+
+# --------------------------------- Review examination --------------------------------------- #
