@@ -11,6 +11,12 @@ ${menu_list_admin}                  xpath=//*[@id="jetsContent"]/li[4]
 ${btn_advanced}                     xpath=//*[@id="details-button"]
 ${btn_proceed_linkl}                xpath=//*[@id="proceed-link"]
 
-#เข้าหน้า นักเรียน
-${menu_teacher}                     //*[@id="teacher"]/div/div
-${show_detailtest}                  //*[@id="menu_show"]/div[2]/div[2]/div/div
+# button menu of actor
+${btn_menu_teacher}                 xpath=//*[@id="teacher"]
+${btn_menu_student}                 xpath=//*[@id="student"]
+
+# button menu of module
+${btn_menu_report}                  xpath=//*[@id="exam-report"]
+${btn_menu_management}              xpath=//*[@id="exam-management"]
+${btn_menu_review}                  xpath=//*[@id="exam-review"]
+${btn_menu_testiing}                xpath=//*[@id="online-testing"]

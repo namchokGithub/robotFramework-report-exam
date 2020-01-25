@@ -30,10 +30,26 @@ Resource        Variables.resource
         click element               ${menu_list_admin} 
         sleep                       1s
 
-เลือกอาจารย์
-        click element               ${menu_teacher}
+เลือกผู้ใช้งานเป็นอาจารย์
+        click element               ${btn_menu_teacher}
         sleep                       1s
 
+เลือกผู้ใช้งานเป็นนักเรียน
+        click element               ${btn_menu_student}
+        sleep                       1s
+
+เลือกเมนูทำข้อสอบออนไลน์
+        click element               ${btn_menu_testiing}
+        sleep                       1s 
+
+เลือกเมนูการจัดการการสอบ
+        click element               ${btn_menu_management}
+        sleep                       1s 
+
+เลือกเมนูแสดงรายการผลการสอบ
+        click element               ${btn_menu_review}
+        sleep                       1s 
+
 เลือกเมนูส่งออกผลการสอบ
-        click element               ${show_detailtest}
+        click element               ${btn_menu_report}
         sleep                       1s 
