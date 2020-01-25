@@ -10,22 +10,20 @@ Resource        Variables.resource
 ปิดเบราว์เซอร์
         Close browser
 
-เปลี่ยน url
-        go to           ${changeurl}
-        sleep           1s 
-
-เข้าสู่ระบบกรอกด้วย "${Username}" และ "${Password}"
-        Input Text      ${input_username}    ${Username}
+เข้าสู่ระบบกรอกด้วย "${username}" และ "${password}"
+        Input Text      ${input_username}               ${username}
         sleep  1s 
-        Input Text      ${input_password}        ${Password} 
+        Input Text      ${input_password}               ${password} 
         sleep  1s  
     
 กดปุ่มเข้าสู่ระบบ
         click element               ${btn_login} 
         sleep                       1s
 
-เลือกเมนู
-        click element               ${menu} 
+เข้าสู่ระบบหน้าจอเมนูระบบทำข้อสอบออนไลน์
+        click element               ${btn_hamburger} 
+        sleep                       1s
+        click element               ${menu_list_admin} 
         sleep                       1s
 
 เลือกอาจารย์

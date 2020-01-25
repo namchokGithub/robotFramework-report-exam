@@ -4,6 +4,8 @@ ${url}                              https://10.80.39.17/TSP60/Thepd-nu/index.php
 ${input_username}                   xpath=//*[@id="validate-form"]/div[1]/div/div/input
 ${input_password}                   xpath=//*[@id="exampleInputPassword1"]
 ${btn_login}                        xpath=//*[@id="validate-form"]/input
+${btn_hamburger}                    xpath=//*[@id="openmenu"]/span
+${menu_list_admin}                  xpath=//*[@id="jetsContent"]/li[4]
 
 #เข้าหน้า นักเรียน
 ${menu_teacher}                     //*[@id="teacher"]/div/div
