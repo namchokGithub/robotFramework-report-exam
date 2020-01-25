@@ -15,9 +15,9 @@ Resource        Variables.resource
         sleep           1s 
 
 เข้าสู่ระบบกรอกด้วย "${Username}" และ "${Password}"
-        Input Text      ${user}    ${Username}
+        Input Text      ${input_username}    ${Username}
         sleep  1s 
-        Input Text      ${pass}        ${Password} 
+        Input Text      ${input_password}        ${Password} 
         sleep  1s  
     
 กดปุ่มเข้าสู่ระบบ
@@ -26,10 +26,6 @@ Resource        Variables.resource
 
 เลือกเมนู
         click element               ${menu} 
-        sleep                       1s
-
-เลือกผู้ดูแลระบบ
-        click element               ${admin_menu}
         sleep                       1s
 
 เลือกอาจารย์
