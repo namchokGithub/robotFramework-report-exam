@@ -9,18 +9,26 @@ Resource        Variables.resource
 เลือกภาคการศึกษา ${term}
     Select From List By Value               ${selector_term}     ${term}
 
-แสดงรายการการสอบ
+เลือกขนาดการแสดงรายการ ${length}
+    Select From List By Value               ${btn_show_list_length}     ${length}
+    sleep   1s
+
+กดปุ่มแสดงรายการการสอบ
     click element                           ${btn_show_list_exam} 
     sleep   1s
 
-แสดงรายละเอียดการสอบ
+กดปุ่มแสดงรายละเอียดการสอบ
     click element                           ${btn_show_list_exam_info} 
     sleep   1s
 
-แสดงรายละเอียดคำตอบ
+กดปุ่มแสดงรายละเอียดคำตอบ
     click element                           ${btn_show_detail_answer} 
     sleep   1s
 
-ส่งออกรายงานผลการสอบ
+กรอกข้อมูลช่องค้นหา "${input}"
+    click element                           ${search} 
+    sleep   1s
+ 
+กดปุ่มส่งออกรายงานผลการสอบ
     click element                           ${btn_export} 
     sleep   1s

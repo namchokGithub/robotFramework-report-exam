@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200125 23:26:22.618" rpa="false">
-<suite id="s1" name="ส่งออกรายงานการสอบ" source="D:\Team 2\Robot framework\ส่งออกรายงานการสอบ\ส่งออกรายงานการสอบ.robot">
-<test id="s1-t1" name="ทดสอบเข้าสู่ระบบ">
+<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200202 16:08:55.313" rpa="false">
+<suite id="s1" name="ส่งออกรายงานการสอบ" source="C:\Users\Namchok\Downloads\ส่งออกรายงานการสอบ">
+<suite id="s1-s1" name="ส่งออกรายงานการสอบ" source="C:\Users\Namchok\Downloads\ส่งออกรายงานการสอบ\ส่งออกรายงานการสอบ.robot">
+<test id="s1-s1-t1" name="TC6-01 หน้าจอแสดงข้อมูลตารางของรายวิชาผ่านทางหน้าจอถูกต้อง">
 <kw name="Given เปิดเบราว์เซอร์" library="Keywords">
 <kw name="Open Browser" library="Selenium2Library">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
@@ -9,38 +10,38 @@
 <arg>${url}</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20200125 23:26:22.795" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
-<status status="PASS" starttime="20200125 23:26:22.795" endtime="20200125 23:26:27.975"></status>
+<msg timestamp="20200202 16:08:55.523" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:08:55.522" endtime="20200202 16:09:00.782"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200125 23:26:27.975" endtime="20200125 23:26:32.100"></status>
+<status status="PASS" starttime="20200202 16:09:00.782" endtime="20200202 16:09:04.920"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${btn_advanced}</arg>
 </arguments>
-<msg timestamp="20200125 23:26:32.101" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
-<status status="PASS" starttime="20200125 23:26:32.100" endtime="20200125 23:26:32.149"></status>
+<msg timestamp="20200202 16:09:04.921" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:04.921" endtime="20200202 16:09:04.963"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${btn_proceed_linkl}</arg>
 </arguments>
-<msg timestamp="20200125 23:26:32.149" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
-<status status="PASS" starttime="20200125 23:26:32.149" endtime="20200125 23:26:32.508"></status>
+<msg timestamp="20200202 16:09:04.964" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:04.964" endtime="20200202 16:09:05.295"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200125 23:26:33.509" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200125 23:26:32.508" endtime="20200125 23:26:33.509"></status>
+<msg timestamp="20200202 16:09:06.296" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:05.295" endtime="20200202 16:09:06.296"></status>
 </kw>
-<status status="PASS" starttime="20200125 23:26:22.794" endtime="20200125 23:26:33.509"></status>
+<status status="PASS" starttime="20200202 16:08:55.522" endtime="20200202 16:09:06.296"></status>
 </kw>
 <kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
 <kw name="Input Text" library="Selenium2Library">
@@ -49,16 +50,16 @@
 <arg>${input_username}</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20200125 23:26:33.511" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
-<status status="PASS" starttime="20200125 23:26:33.511" endtime="20200125 23:26:33.597"></status>
+<msg timestamp="20200202 16:09:06.297" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:09:06.297" endtime="20200202 16:09:06.376"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200125 23:26:34.598" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200125 23:26:33.597" endtime="20200125 23:26:34.598"></status>
+<msg timestamp="20200202 16:09:07.377" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:06.376" endtime="20200202 16:09:07.377"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -66,18 +67,18 @@
 <arg>${input_password}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20200125 23:26:34.598" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
-<status status="PASS" starttime="20200125 23:26:34.598" endtime="20200125 23:26:34.671"></status>
+<msg timestamp="20200202 16:09:07.379" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:07.378" endtime="20200202 16:09:07.464"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200125 23:26:35.673" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200125 23:26:34.671" endtime="20200125 23:26:35.673"></status>
+<msg timestamp="20200202 16:09:08.465" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:07.464" endtime="20200202 16:09:08.465"></status>
 </kw>
-<status status="PASS" starttime="20200125 23:26:33.510" endtime="20200125 23:26:35.673"></status>
+<status status="PASS" starttime="20200202 16:09:06.297" endtime="20200202 16:09:08.466"></status>
 </kw>
 <kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
 <kw name="Click Element" library="Selenium2Library">
@@ -85,72 +86,75 @@
 <arguments>
 <arg>${btn_login}</arg>
 </arguments>
-<msg timestamp="20200125 23:26:35.674" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
-<status status="PASS" starttime="20200125 23:26:35.674" endtime="20200125 23:26:37.120"></status>
+<msg timestamp="20200202 16:09:08.470" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:09:08.469" endtime="20200202 16:09:10.083"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200125 23:26:38.121" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200125 23:26:37.120" endtime="20200125 23:26:38.121"></status>
+<msg timestamp="20200202 16:09:11.086" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:10.083" endtime="20200202 16:09:11.086"></status>
 </kw>
-<status status="PASS" starttime="20200125 23:26:35.674" endtime="20200125 23:26:38.121"></status>
+<status status="PASS" starttime="20200202 16:09:08.468" endtime="20200202 16:09:11.086"></status>
 </kw>
-<kw name="AND เข้าสู่ระบบหน้าจอเมนูระบบทำข้อสอบออนไลน์" library="Keywords">
+<kw name="AND เลือกเมนู" library="Keywords">
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${btn_hamburger}</arg>
 </arguments>
-<msg timestamp="20200125 23:26:38.124" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
-<status status="PASS" starttime="20200125 23:26:38.123" endtime="20200125 23:26:38.201"></status>
+<msg timestamp="20200202 16:09:11.088" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:09:11.088" endtime="20200202 16:09:11.163"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200125 23:26:39.203" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200125 23:26:38.201" endtime="20200125 23:26:39.203"></status>
+<msg timestamp="20200202 16:09:12.165" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:11.164" endtime="20200202 16:09:12.165"></status>
 </kw>
+<status status="PASS" starttime="20200202 16:09:11.087" endtime="20200202 16:09:12.166"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${menu_list_admin}</arg>
 </arguments>
-<msg timestamp="20200125 23:26:39.204" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
-<status status="PASS" starttime="20200125 23:26:39.204" endtime="20200125 23:26:39.699"></status>
+<msg timestamp="20200202 16:09:12.169" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:09:12.168" endtime="20200202 16:09:12.693"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200125 23:26:40.701" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200125 23:26:39.699" endtime="20200125 23:26:40.701"></status>
+<msg timestamp="20200202 16:09:13.696" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:12.694" endtime="20200202 16:09:13.696"></status>
 </kw>
-<status status="PASS" starttime="20200125 23:26:38.123" endtime="20200125 23:26:40.702"></status>
+<status status="PASS" starttime="20200202 16:09:12.167" endtime="20200202 16:09:13.696"></status>
 </kw>
-<kw name="AND เลือกผู้ใช้งานเป็นอาจารย์" library="Keywords">
+<kw name="AND เลือกอาจารย์" library="Keywords">
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>${btn_menu_teacher}</arg>
 </arguments>
-<msg timestamp="20200125 23:26:40.705" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
-<status status="PASS" starttime="20200125 23:26:40.704" endtime="20200125 23:26:40.772"></status>
+<msg timestamp="20200202 16:09:13.698" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:13.697" endtime="20200202 16:09:13.763"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200125 23:26:41.774" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200125 23:26:40.772" endtime="20200125 23:26:41.774"></status>
+<msg timestamp="20200202 16:09:14.764" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:13.763" endtime="20200202 16:09:14.764"></status>
 </kw>
-<status status="PASS" starttime="20200125 23:26:40.704" endtime="20200125 23:26:41.775"></status>
+<status status="PASS" starttime="20200202 16:09:13.697" endtime="20200202 16:09:14.765"></status>
 </kw>
 <kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
 <kw name="Click Element" library="Selenium2Library">
@@ -158,43 +162,2487 @@
 <arguments>
 <arg>${btn_menu_report}</arg>
 </arguments>
-<msg timestamp="20200125 23:26:41.778" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
-<status status="PASS" starttime="20200125 23:26:41.777" endtime="20200125 23:26:42.143"></status>
+<msg timestamp="20200202 16:09:14.769" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:14.768" endtime="20200202 16:09:15.147"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20200125 23:26:43.145" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20200125 23:26:42.143" endtime="20200125 23:26:43.145"></status>
+<msg timestamp="20200202 16:09:16.148" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:15.147" endtime="20200202 16:09:16.148"></status>
 </kw>
-<status status="PASS" starttime="20200125 23:26:41.776" endtime="20200125 23:26:43.145"></status>
+<status status="PASS" starttime="20200202 16:09:14.767" endtime="20200202 16:09:16.148"></status>
 </kw>
 <kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200125 23:26:43.145" endtime="20200125 23:26:45.247"></status>
+<status status="PASS" starttime="20200202 16:09:16.150" endtime="20200202 16:09:18.218"></status>
 </kw>
-<status status="PASS" starttime="20200125 23:26:43.145" endtime="20200125 23:26:45.248"></status>
+<status status="PASS" starttime="20200202 16:09:16.149" endtime="20200202 16:09:18.219"></status>
 </kw>
 <tags>
-<tag>TEST</tag>
+<tag>PASS</tag>
 </tags>
-<status status="PASS" starttime="20200125 23:26:22.793" endtime="20200125 23:26:45.250" critical="yes"></status>
+<status status="PASS" starttime="20200202 16:08:55.519" endtime="20200202 16:09:18.221" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200125 23:26:22.619" endtime="20200125 23:26:45.259"></status>
+<test id="s1-s1-t2" name="TC6-04 หน้าจอแสดงข้อมูลตารางของรายวิชาสามารถกดปุ่มดรอปดาวน์เพื่อเลือกปีพ.ศ. และแสดงข้อมูลตามปีถูกต้องผ่านทางหน้าจอได้">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:09:18.237" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:09:18.237" endtime="20200202 16:09:23.466"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:09:23.466" endtime="20200202 16:09:27.598"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:27.599" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:27.599" endtime="20200202 16:09:27.644"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:27.645" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:27.645" endtime="20200202 16:09:27.989"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:28.990" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:27.989" endtime="20200202 16:09:28.990"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:18.236" endtime="20200202 16:09:28.990"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:28.991" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:09:28.991" endtime="20200202 16:09:29.068"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:30.071" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:29.069" endtime="20200202 16:09:30.071"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:30.071" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:30.071" endtime="20200202 16:09:30.142"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:31.143" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:30.142" endtime="20200202 16:09:31.143"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:28.991" endtime="20200202 16:09:31.143"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:31.144" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:09:31.144" endtime="20200202 16:09:32.504"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:33.505" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:32.504" endtime="20200202 16:09:33.505"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:31.144" endtime="20200202 16:09:33.505"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:33.505" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:09:33.505" endtime="20200202 16:09:33.572"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:34.572" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:33.572" endtime="20200202 16:09:34.572"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:33.505" endtime="20200202 16:09:34.572"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:34.574" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:09:34.574" endtime="20200202 16:09:35.070"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:36.072" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:35.070" endtime="20200202 16:09:36.072"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:34.573" endtime="20200202 16:09:36.072"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:36.074" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:36.074" endtime="20200202 16:09:36.153"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:37.155" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:36.153" endtime="20200202 16:09:37.155"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:36.073" endtime="20200202 16:09:37.155"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:37.156" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:37.156" endtime="20200202 16:09:37.536"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:38.539" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:37.537" endtime="20200202 16:09:38.539"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:37.156" endtime="20200202 16:09:38.540"></status>
+</kw>
+<kw name="AND เลือกปีการศึกษา 2562" library="Keywords-report">
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>${selector_year}</arg>
+<arg>${year}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:38.544" level="INFO">Selecting options from selection list 'xpath=//*[@id="select_crs_year"]' by value 2562.</msg>
+<status status="PASS" starttime="20200202 16:09:38.543" endtime="20200202 16:09:38.640"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:38.542" endtime="20200202 16:09:38.640"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:09:38.641" endtime="20200202 16:09:40.711"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:38.641" endtime="20200202 16:09:40.711"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:09:18.228" endtime="20200202 16:09:40.712" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="TC6-09 หน้าจอแสดงข้อมูลตารางของรายวิชาสามารถกดปุ่มดรอปดาวน์เพื่อเลือกแสดงภาคการศึกษา แสดงข้อมูลถูกต้องผ่านทางหน้าจอ">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:09:40.719" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:09:40.719" endtime="20200202 16:09:45.911"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:09:45.911" endtime="20200202 16:09:50.034"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:50.036" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:50.035" endtime="20200202 16:09:50.109"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:50.109" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:50.109" endtime="20200202 16:09:50.454"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:51.454" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:50.454" endtime="20200202 16:09:51.454"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:40.719" endtime="20200202 16:09:51.454"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:51.455" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:09:51.455" endtime="20200202 16:09:51.535"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:52.537" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:51.535" endtime="20200202 16:09:52.537"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:52.537" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:52.537" endtime="20200202 16:09:52.604"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:53.605" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:52.604" endtime="20200202 16:09:53.605"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:51.455" endtime="20200202 16:09:53.606"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:53.610" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:09:53.609" endtime="20200202 16:09:54.947"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:55.950" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:54.947" endtime="20200202 16:09:55.950"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:53.608" endtime="20200202 16:09:55.950"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:55.952" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:09:55.951" endtime="20200202 16:09:56.028"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:57.031" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:56.028" endtime="20200202 16:09:57.031"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:55.951" endtime="20200202 16:09:57.031"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:57.033" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:09:57.032" endtime="20200202 16:09:57.498"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:58.499" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:57.498" endtime="20200202 16:09:58.499"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:57.032" endtime="20200202 16:09:58.499"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:58.500" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:58.500" endtime="20200202 16:09:58.563"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:09:59.564" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:58.563" endtime="20200202 16:09:59.564"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:58.500" endtime="20200202 16:09:59.564"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:09:59.566" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:09:59.566" endtime="20200202 16:09:59.936"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:00.938" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:09:59.936" endtime="20200202 16:10:00.938"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:09:59.565" endtime="20200202 16:10:00.939"></status>
+</kw>
+<kw name="AND เลือกภาคการศึกษา 1" library="Keywords-report">
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>${selector_term}</arg>
+<arg>${term}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:00.943" level="INFO">Selecting options from selection list 'xpath=//*[@id="select_crs_term"]' by value 1.</msg>
+<status status="PASS" starttime="20200202 16:10:00.942" endtime="20200202 16:10:01.040"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:00.941" endtime="20200202 16:10:01.040"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:10:01.041" endtime="20200202 16:10:03.111"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:01.041" endtime="20200202 16:10:03.112"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:09:40.714" endtime="20200202 16:10:03.114" critical="yes"></status>
+</test>
+<test id="s1-s1-t4" name="TC6-13 หน้าจอแสดงข้อมูลตารางของรายวิชาสามารถกดปุ่มดรอปดาวน์เพื่อแสดงรายการ และแสดงข้อมูลรายการผ่านทางหน้าจอ">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:10:03.136" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:10:03.136" endtime="20200202 16:10:08.277"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:10:08.277" endtime="20200202 16:10:12.407"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:12.408" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:12.407" endtime="20200202 16:10:12.481"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:12.481" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:12.481" endtime="20200202 16:10:12.810"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:13.811" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:12.810" endtime="20200202 16:10:13.811"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:03.136" endtime="20200202 16:10:13.811"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:13.812" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:10:13.812" endtime="20200202 16:10:13.889"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:14.891" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:13.889" endtime="20200202 16:10:14.891"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:14.891" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:14.891" endtime="20200202 16:10:14.961"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:15.963" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:14.961" endtime="20200202 16:10:15.963"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:13.812" endtime="20200202 16:10:15.963"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:15.964" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:10:15.964" endtime="20200202 16:10:17.339"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:18.340" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:17.339" endtime="20200202 16:10:18.340"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:15.964" endtime="20200202 16:10:18.340"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:18.342" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:10:18.342" endtime="20200202 16:10:18.422"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:19.423" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:18.422" endtime="20200202 16:10:19.423"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:18.342" endtime="20200202 16:10:19.423"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:19.425" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:10:19.424" endtime="20200202 16:10:19.890"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:20.890" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:19.890" endtime="20200202 16:10:20.890"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:19.424" endtime="20200202 16:10:20.891"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:20.895" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:20.894" endtime="20200202 16:10:20.970"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:21.971" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:20.970" endtime="20200202 16:10:21.971"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:20.893" endtime="20200202 16:10:21.972"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:21.976" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:21.975" endtime="20200202 16:10:22.343"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:23.343" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:22.343" endtime="20200202 16:10:23.343"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:21.974" endtime="20200202 16:10:23.344"></status>
+</kw>
+<kw name="AND เลือกขนาดการแสดงรายการ 10" library="Keywords-report">
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>${btn_show_list_length}</arg>
+<arg>${length}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:23.348" level="INFO">Selecting options from selection list 'xpath=//*[@id="dataTable4_length"]/label/select' by value 10.</msg>
+<status status="PASS" starttime="20200202 16:10:23.347" endtime="20200202 16:10:23.390"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:24.391" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:23.390" endtime="20200202 16:10:24.391"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:23.346" endtime="20200202 16:10:24.391"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:10:24.392" endtime="20200202 16:10:26.459"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:24.392" endtime="20200202 16:10:26.460"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:10:03.120" endtime="20200202 16:10:26.462" critical="yes"></status>
+</test>
+<test id="s1-s1-t5" name="TC6-17 หน้าจอแสดงข้อมูลตารางของรายวิชาสามารถกรอกข้อมูลในช่องค้นหาได้ และแสดงข้อมูลถูกต้องตามที่ค้นหา">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:10:26.496" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:10:26.495" endtime="20200202 16:10:31.663"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:10:31.663" endtime="20200202 16:10:35.797"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:35.798" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:35.797" endtime="20200202 16:10:35.846"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:35.847" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:35.846" endtime="20200202 16:10:36.198"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:37.199" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:36.198" endtime="20200202 16:10:37.199"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:26.495" endtime="20200202 16:10:37.199"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:37.200" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:10:37.200" endtime="20200202 16:10:37.277"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:38.278" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:37.277" endtime="20200202 16:10:38.278"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:38.278" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:38.278" endtime="20200202 16:10:38.349"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:39.349" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:38.349" endtime="20200202 16:10:39.349"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:37.200" endtime="20200202 16:10:39.349"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:39.350" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:10:39.350" endtime="20200202 16:10:40.827"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:41.828" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:40.827" endtime="20200202 16:10:41.828"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:39.350" endtime="20200202 16:10:41.828"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:41.829" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:10:41.829" endtime="20200202 16:10:41.914"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:42.915" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:41.914" endtime="20200202 16:10:42.915"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:41.829" endtime="20200202 16:10:42.916"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:42.919" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:10:42.918" endtime="20200202 16:10:43.450"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:44.451" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:43.450" endtime="20200202 16:10:44.451"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:42.918" endtime="20200202 16:10:44.452"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:44.455" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:44.455" endtime="20200202 16:10:44.545"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:45.547" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:44.545" endtime="20200202 16:10:45.547"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:44.453" endtime="20200202 16:10:45.547"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:45.548" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:45.548" endtime="20200202 16:10:45.915"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:46.916" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:45.916" endtime="20200202 16:10:46.916"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:45.548" endtime="20200202 16:10:46.916"></status>
+</kw>
+<kw name="AND กรอกข้อมูลช่องค้นหา &quot;101&quot;" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${search}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:46.917" level="INFO">Clicking element 'xpath=//*[@id="dataTable4_filter"]/label/input'.</msg>
+<status status="PASS" starttime="20200202 16:10:46.917" endtime="20200202 16:10:46.974"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:10:47.975" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:46.974" endtime="20200202 16:10:47.975"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:46.917" endtime="20200202 16:10:47.975"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:10:47.976" endtime="20200202 16:10:50.052"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:47.976" endtime="20200202 16:10:50.052"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:10:26.470" endtime="20200202 16:10:50.053" critical="yes"></status>
+</test>
+<test id="s1-s1-t6" name="TC6-39 หน้าจอแสดงตารางข้อมูลของรายวิชาสามารถกดปุ่มเพื่อแสดงรายการการสอบผ่านทางหน้าจอได้ถูกต้อง">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:10:50.068" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:10:50.068" endtime="20200202 16:10:55.236"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:10:55.236" endtime="20200202 16:10:59.363"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:59.364" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:59.363" endtime="20200202 16:10:59.416"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:10:59.417" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:10:59.416" endtime="20200202 16:10:59.474"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:00.476" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:10:59.474" endtime="20200202 16:11:00.476"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:10:50.067" endtime="20200202 16:11:00.477"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:00.481" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:11:00.480" endtime="20200202 16:11:00.564"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:01.566" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:00.564" endtime="20200202 16:11:01.566"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:01.566" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:01.566" endtime="20200202 16:11:01.639"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:02.640" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:01.639" endtime="20200202 16:11:02.640"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:00.479" endtime="20200202 16:11:02.640"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:02.641" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:11:02.641" endtime="20200202 16:11:03.906"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:04.907" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:03.907" endtime="20200202 16:11:04.907"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:02.641" endtime="20200202 16:11:04.907"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:04.909" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:11:04.909" endtime="20200202 16:11:04.988"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:05.990" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:04.989" endtime="20200202 16:11:05.990"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:04.908" endtime="20200202 16:11:05.990"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:05.991" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:11:05.991" endtime="20200202 16:11:06.495"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:07.497" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:06.496" endtime="20200202 16:11:07.497"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:05.991" endtime="20200202 16:11:07.497"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:07.498" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:07.498" endtime="20200202 16:11:07.555"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:08.556" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:07.555" endtime="20200202 16:11:08.556"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:07.498" endtime="20200202 16:11:08.557"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:08.562" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:08.560" endtime="20200202 16:11:08.927"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:09.928" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:08.927" endtime="20200202 16:11:09.928"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:08.559" endtime="20200202 16:11:09.928"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายการการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:09.930" level="INFO">Clicking element 'xpath=//*[@id="dataTable4"]/tbody/tr/td[7]/center/a'.</msg>
+<status status="PASS" starttime="20200202 16:11:09.929" endtime="20200202 16:11:10.281"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:11.282" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:10.281" endtime="20200202 16:11:11.282"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:09.929" endtime="20200202 16:11:11.283"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:11:11.286" endtime="20200202 16:11:13.382"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:11.285" endtime="20200202 16:11:13.383"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:10:50.055" endtime="20200202 16:11:13.385" critical="yes"></status>
+</test>
+<test id="s1-s1-t7" name="TC6-62 หน้าจอแสดงตารางรายการการสอบสามารถกดปุ่มเพื่อแสดงรายละเอียดการสอบผ่านทางหน้าจอได้ถูกต้อง">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:11:13.400" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:11:13.399" endtime="20200202 16:11:18.613"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:11:18.613" endtime="20200202 16:11:22.733"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:22.733" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:22.733" endtime="20200202 16:11:22.776"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:22.776" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:22.776" endtime="20200202 16:11:23.123"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:24.124" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:23.123" endtime="20200202 16:11:24.124"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:13.399" endtime="20200202 16:11:24.124"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:24.125" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:11:24.125" endtime="20200202 16:11:24.202"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:25.203" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:24.202" endtime="20200202 16:11:25.203"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:25.203" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:25.203" endtime="20200202 16:11:25.283"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:26.284" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:25.283" endtime="20200202 16:11:26.284"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:24.125" endtime="20200202 16:11:26.284"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:26.285" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:11:26.285" endtime="20200202 16:11:27.757"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:28.758" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:27.757" endtime="20200202 16:11:28.758"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:26.285" endtime="20200202 16:11:28.758"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:28.759" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:11:28.759" endtime="20200202 16:11:28.831"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:29.833" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:28.832" endtime="20200202 16:11:29.833"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:28.759" endtime="20200202 16:11:29.834"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:29.837" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:11:29.837" endtime="20200202 16:11:30.369"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:31.371" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:30.370" endtime="20200202 16:11:31.371"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:29.836" endtime="20200202 16:11:31.371"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:31.373" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:31.372" endtime="20200202 16:11:31.431"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:32.433" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:31.431" endtime="20200202 16:11:32.433"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:31.372" endtime="20200202 16:11:32.433"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:32.434" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:32.434" endtime="20200202 16:11:32.912"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:33.913" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:32.912" endtime="20200202 16:11:33.913"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:32.433" endtime="20200202 16:11:33.913"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายการการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:33.915" level="INFO">Clicking element 'xpath=//*[@id="dataTable4"]/tbody/tr/td[7]/center/a'.</msg>
+<status status="PASS" starttime="20200202 16:11:33.914" endtime="20200202 16:11:34.226"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:35.227" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:34.226" endtime="20200202 16:11:35.227"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:33.914" endtime="20200202 16:11:35.227"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายละเอียดการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam_info}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:35.231" level="INFO">Clicking element 'xpath=//*[@id="list_exam"]/tr/td[7]/a[1]'.</msg>
+<status status="PASS" starttime="20200202 16:11:35.230" endtime="20200202 16:11:35.568"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:36.569" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:35.568" endtime="20200202 16:11:36.569"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:35.229" endtime="20200202 16:11:36.569"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:11:36.571" endtime="20200202 16:11:38.640"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:36.571" endtime="20200202 16:11:38.641"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:11:13.391" endtime="20200202 16:11:38.643" critical="yes"></status>
+</test>
+<test id="s1-s1-t8" name="TC6-66 หน้าจอแสดงตารางรายการการสอบสามารถกดปุ่มเพื่อส่งออกไฟล์เอกสาร PDF ผ่านทางหน้าจอได้ถูกต้อง">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:11:38.658" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:11:38.658" endtime="20200202 16:11:43.868"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:11:43.869" endtime="20200202 16:11:48.003"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:48.003" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:48.003" endtime="20200202 16:11:48.069"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:48.069" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:48.069" endtime="20200202 16:11:48.411"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:49.412" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:48.411" endtime="20200202 16:11:49.412"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:38.657" endtime="20200202 16:11:49.412"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:49.413" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:11:49.413" endtime="20200202 16:11:49.496"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:50.497" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:49.496" endtime="20200202 16:11:50.497"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:50.497" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:50.497" endtime="20200202 16:11:50.575"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:51.576" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:50.576" endtime="20200202 16:11:51.576"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:49.412" endtime="20200202 16:11:51.577"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:51.581" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:11:51.580" endtime="20200202 16:11:53.022"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:54.023" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:53.023" endtime="20200202 16:11:54.023"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:51.579" endtime="20200202 16:11:54.024"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:54.027" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:11:54.026" endtime="20200202 16:11:54.109"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:55.110" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:54.109" endtime="20200202 16:11:55.110"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:54.026" endtime="20200202 16:11:55.110"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:55.111" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:11:55.111" endtime="20200202 16:11:55.652"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:56.653" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:55.652" endtime="20200202 16:11:56.653"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:55.111" endtime="20200202 16:11:56.654"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:56.658" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:56.657" endtime="20200202 16:11:56.723"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:57.724" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:56.723" endtime="20200202 16:11:57.724"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:56.656" endtime="20200202 16:11:57.724"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:57.725" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:11:57.725" endtime="20200202 16:11:58.093"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:11:59.094" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:58.093" endtime="20200202 16:11:59.094"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:57.725" endtime="20200202 16:11:59.095"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายการการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam}</arg>
+</arguments>
+<msg timestamp="20200202 16:11:59.099" level="INFO">Clicking element 'xpath=//*[@id="dataTable4"]/tbody/tr/td[7]/center/a'.</msg>
+<status status="PASS" starttime="20200202 16:11:59.098" endtime="20200202 16:11:59.424"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:00.425" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:11:59.424" endtime="20200202 16:12:00.425"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:11:59.097" endtime="20200202 16:12:00.425"></status>
+</kw>
+<kw name="AND กดปุ่มส่งออกรายงานผลการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_export}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:00.428" level="INFO">Clicking element 'xpath=//*[@id="list_exam"]/tr/td[7]/a[2]'.</msg>
+<status status="PASS" starttime="20200202 16:12:00.427" endtime="20200202 16:12:00.539"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:01.540" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:00.539" endtime="20200202 16:12:01.540"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:00.427" endtime="20200202 16:12:01.541"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:12:01.544" endtime="20200202 16:12:03.630"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:01.543" endtime="20200202 16:12:03.630"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:11:38.652" endtime="20200202 16:12:03.632" critical="yes"></status>
+</test>
+<test id="s1-s1-t9" name="TC6-82 หน้าจอแสดงรายละเอียดการสอบ ในส่วนของการแสดงคะแนนของผู้เข้าสอบสามารถกดปุ่มดรอปดาวน์เพื่อแสดงรายการ และแสดงข้อมูลรายการผ่านทางหน้าจอ">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:12:03.647" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:12:03.647" endtime="20200202 16:12:08.796"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:12:08.796" endtime="20200202 16:12:12.915"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:12.915" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:12.915" endtime="20200202 16:12:12.962"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:12.962" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:12.962" endtime="20200202 16:12:13.277"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:14.278" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:13.277" endtime="20200202 16:12:14.278"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:03.647" endtime="20200202 16:12:14.278"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:14.279" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:12:14.279" endtime="20200202 16:12:14.360"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:15.362" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:14.360" endtime="20200202 16:12:15.362"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:15.363" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:15.362" endtime="20200202 16:12:15.442"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:16.444" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:15.442" endtime="20200202 16:12:16.444"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:14.279" endtime="20200202 16:12:16.444"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:16.445" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:12:16.445" endtime="20200202 16:12:18.000"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:19.002" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:18.000" endtime="20200202 16:12:19.002"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:16.445" endtime="20200202 16:12:19.002"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:19.004" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:12:19.004" endtime="20200202 16:12:19.084"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:20.086" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:19.085" endtime="20200202 16:12:20.086"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:19.003" endtime="20200202 16:12:20.087"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:20.091" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:12:20.091" endtime="20200202 16:12:20.588"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:21.590" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:20.588" endtime="20200202 16:12:21.590"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:20.089" endtime="20200202 16:12:21.590"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:21.591" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:21.591" endtime="20200202 16:12:21.650"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:22.652" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:21.650" endtime="20200202 16:12:22.652"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:21.591" endtime="20200202 16:12:22.653"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:22.657" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:22.656" endtime="20200202 16:12:23.035"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:24.038" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:23.035" endtime="20200202 16:12:24.038"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:22.655" endtime="20200202 16:12:24.039"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายการการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:24.043" level="INFO">Clicking element 'xpath=//*[@id="dataTable4"]/tbody/tr/td[7]/center/a'.</msg>
+<status status="PASS" starttime="20200202 16:12:24.042" endtime="20200202 16:12:24.357"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:25.358" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:24.357" endtime="20200202 16:12:25.358"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:24.041" endtime="20200202 16:12:25.359"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายละเอียดการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam_info}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:25.363" level="INFO">Clicking element 'xpath=//*[@id="list_exam"]/tr/td[7]/a[1]'.</msg>
+<status status="PASS" starttime="20200202 16:12:25.362" endtime="20200202 16:12:25.737"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:26.738" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:25.737" endtime="20200202 16:12:26.738"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:25.361" endtime="20200202 16:12:26.738"></status>
+</kw>
+<kw name="AND เลือกขนาดการแสดงรายการ 10" library="Keywords-report">
+<kw name="Select From List By Value" library="Selenium2Library">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>${btn_show_list_length}</arg>
+<arg>${length}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:26.739" level="INFO">Selecting options from selection list 'xpath=//*[@id="dataTable4_length"]/label/select' by value 10.</msg>
+<status status="PASS" starttime="20200202 16:12:26.739" endtime="20200202 16:12:26.785"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:27.785" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:26.785" endtime="20200202 16:12:27.785"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:26.739" endtime="20200202 16:12:27.785"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:12:27.786" endtime="20200202 16:12:29.866"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:27.786" endtime="20200202 16:12:29.867"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:12:03.640" endtime="20200202 16:12:29.869" critical="yes"></status>
+</test>
+<test id="s1-s1-t10" name="TC6-86 หน้าจอแสดงข้อมูลตารางของรายวิชาสามารถกรอกข้อมูลในช่องค้นหาได้ และแสดงข้อมูลถูกต้องตามที่ค้นหา">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:12:29.884" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:12:29.884" endtime="20200202 16:12:35.066"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:12:35.067" endtime="20200202 16:12:39.185"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:39.185" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:39.185" endtime="20200202 16:12:39.228"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:39.228" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:39.228" endtime="20200202 16:12:39.554"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:40.555" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:39.554" endtime="20200202 16:12:40.555"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:29.884" endtime="20200202 16:12:40.555"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:40.556" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:12:40.556" endtime="20200202 16:12:40.643"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:41.644" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:40.643" endtime="20200202 16:12:41.644"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:41.645" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:41.645" endtime="20200202 16:12:41.721"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:42.722" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:41.721" endtime="20200202 16:12:42.722"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:40.556" endtime="20200202 16:12:42.722"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:42.723" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:12:42.723" endtime="20200202 16:12:44.089"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:45.090" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:44.089" endtime="20200202 16:12:45.090"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:42.723" endtime="20200202 16:12:45.090"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:45.093" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:12:45.093" endtime="20200202 16:12:45.194"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:46.195" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:45.194" endtime="20200202 16:12:46.195"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:45.092" endtime="20200202 16:12:46.195"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:46.195" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:12:46.195" endtime="20200202 16:12:46.725"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:47.726" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:46.725" endtime="20200202 16:12:47.726"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:46.195" endtime="20200202 16:12:47.726"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:47.729" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:47.729" endtime="20200202 16:12:47.809"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:48.811" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:47.809" endtime="20200202 16:12:48.811"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:47.728" endtime="20200202 16:12:48.811"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:48.812" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:12:48.812" endtime="20200202 16:12:49.189"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:50.190" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:49.189" endtime="20200202 16:12:50.190"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:48.812" endtime="20200202 16:12:50.191"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายการการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:50.194" level="INFO">Clicking element 'xpath=//*[@id="dataTable4"]/tbody/tr/td[7]/center/a'.</msg>
+<status status="PASS" starttime="20200202 16:12:50.193" endtime="20200202 16:12:50.511"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:51.513" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:50.511" endtime="20200202 16:12:51.513"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:50.192" endtime="20200202 16:12:51.514"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายละเอียดการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam_info}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:51.518" level="INFO">Clicking element 'xpath=//*[@id="list_exam"]/tr/td[7]/a[1]'.</msg>
+<status status="PASS" starttime="20200202 16:12:51.517" endtime="20200202 16:12:51.857"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:52.858" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:51.858" endtime="20200202 16:12:52.858"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:51.516" endtime="20200202 16:12:52.858"></status>
+</kw>
+<kw name="AND กรอกข้อมูลช่องค้นหา &quot;5001001&quot;" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${search}</arg>
+</arguments>
+<msg timestamp="20200202 16:12:52.860" level="INFO">Clicking element 'xpath=//*[@id="dataTable4_filter"]/label/input'.</msg>
+<status status="PASS" starttime="20200202 16:12:52.860" endtime="20200202 16:12:52.912"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:12:53.913" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:12:52.912" endtime="20200202 16:12:53.913"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:52.860" endtime="20200202 16:12:53.914"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:12:53.917" endtime="20200202 16:12:56.003"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:53.916" endtime="20200202 16:12:56.004"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:12:29.879" endtime="20200202 16:12:56.006" critical="yes"></status>
+</test>
+<test id="s1-s1-t11" name="TC6-101 หน้าจอแสดงรายละเอียดการสอบ ในส่วนของการแสดงคะแนนของผู้เข้าสอบ สามารถกดปุ่มเพื่อแสดงรายละเอียดการสอบผ่านทางหน้าจอได้ถูกต้อง">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:12:56.021" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:12:56.021" endtime="20200202 16:13:01.225"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:13:01.225" endtime="20200202 16:13:05.346"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:05.346" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:05.346" endtime="20200202 16:13:05.400"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:05.401" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:05.400" endtime="20200202 16:13:05.740"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:06.742" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:05.740" endtime="20200202 16:13:06.742"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:12:56.021" endtime="20200202 16:13:06.743"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:06.746" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:13:06.745" endtime="20200202 16:13:06.829"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:07.832" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:06.829" endtime="20200202 16:13:07.832"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:07.834" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:07.833" endtime="20200202 16:13:07.912"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:08.913" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:07.912" endtime="20200202 16:13:08.913"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:06.744" endtime="20200202 16:13:08.914"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:08.918" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:13:08.917" endtime="20200202 16:13:10.410"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:11.412" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:10.410" endtime="20200202 16:13:11.412"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:08.916" endtime="20200202 16:13:11.412"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:11.414" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:13:11.414" endtime="20200202 16:13:11.487"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:12.489" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:11.488" endtime="20200202 16:13:12.489"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:11.413" endtime="20200202 16:13:12.489"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:12.491" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:13:12.491" endtime="20200202 16:13:12.991"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:13.993" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:12.991" endtime="20200202 16:13:13.993"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:12.490" endtime="20200202 16:13:13.993"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:13.996" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:13.995" endtime="20200202 16:13:14.053"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:15.055" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:14.053" endtime="20200202 16:13:15.055"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:13.995" endtime="20200202 16:13:15.056"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:15.060" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:15.059" endtime="20200202 16:13:15.425"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:16.426" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:15.425" endtime="20200202 16:13:16.426"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:15.058" endtime="20200202 16:13:16.426"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายการการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:16.427" level="INFO">Clicking element 'xpath=//*[@id="dataTable4"]/tbody/tr/td[7]/center/a'.</msg>
+<status status="PASS" starttime="20200202 16:13:16.427" endtime="20200202 16:13:16.734"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:17.735" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:16.734" endtime="20200202 16:13:17.735"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:16.427" endtime="20200202 16:13:17.735"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายละเอียดการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam_info}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:17.737" level="INFO">Clicking element 'xpath=//*[@id="list_exam"]/tr/td[7]/a[1]'.</msg>
+<status status="PASS" starttime="20200202 16:13:17.737" endtime="20200202 16:13:18.082"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:19.084" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:18.082" endtime="20200202 16:13:19.084"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:17.736" endtime="20200202 16:13:19.084"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายละเอียดคำตอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_detail_answer}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:19.086" level="INFO">Clicking element 'xpath=//*[@id="dataTable4"]/tbody/tr/td[5]/a'.</msg>
+<status status="PASS" starttime="20200202 16:13:19.086" endtime="20200202 16:13:19.142"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:20.143" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:19.142" endtime="20200202 16:13:20.143"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:19.086" endtime="20200202 16:13:20.144"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:13:20.147" endtime="20200202 16:13:22.222"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:20.146" endtime="20200202 16:13:22.223"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:12:56.015" endtime="20200202 16:13:22.225" critical="yes"></status>
+</test>
+<test id="s1-s1-t12" name="TC6-116 หน้าจอแสดงตารางรายละเอียดคำตอบ สามารถกดปุ่มยกเลิกเพื่อลดการแสดงรายการผ่านทางหน้าจอได้">
+<kw name="Given เปิดเบราว์เซอร์" library="Keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200202 16:13:22.239" level="INFO">Opening browser 'chrome' to base url 'https://10.80.39.17/TSP60/Thepd-nu/index.php/gear'.</msg>
+<status status="PASS" starttime="20200202 16:13:22.239" endtime="20200202 16:13:27.447"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200202 16:13:27.447" endtime="20200202 16:13:31.573"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_advanced}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:31.575" level="INFO">Clicking element 'xpath=//*[@id="details-button"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:31.575" endtime="20200202 16:13:31.643"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_proceed_linkl}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:31.643" level="INFO">Clicking element 'xpath=//*[@id="proceed-link"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:31.643" endtime="20200202 16:13:31.974"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:32.976" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:31.974" endtime="20200202 16:13:32.976"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:22.238" endtime="20200202 16:13:32.976"></status>
+</kw>
+<kw name="AND เข้าสู่ระบบกรอกด้วย &quot;60160345&quot; และ &quot;60160345&quot;" library="Keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:32.977" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="validate-form"]/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20200202 16:13:32.977" endtime="20200202 16:13:33.065"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:34.065" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:33.065" endtime="20200202 16:13:34.065"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${input_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:34.065" level="INFO">Typing text '60160345' into text field 'xpath=//*[@id="exampleInputPassword1"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:34.065" endtime="20200202 16:13:34.144"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:35.145" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:34.144" endtime="20200202 16:13:35.145"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:32.977" endtime="20200202 16:13:35.146"></status>
+</kw>
+<kw name="AND กดปุ่มเข้าสู่ระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_login}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:35.150" level="INFO">Clicking element 'xpath=//*[@id="validate-form"]/input'.</msg>
+<status status="PASS" starttime="20200202 16:13:35.149" endtime="20200202 16:13:36.512"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:37.514" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:36.512" endtime="20200202 16:13:37.514"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:35.148" endtime="20200202 16:13:37.514"></status>
+</kw>
+<kw name="AND เลือกเมนู" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_hamburger}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:37.515" level="INFO">Clicking element 'xpath=//*[@id="openmenu"]/span'.</msg>
+<status status="PASS" starttime="20200202 16:13:37.515" endtime="20200202 16:13:37.581"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:38.584" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:37.582" endtime="20200202 16:13:38.584"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:37.515" endtime="20200202 16:13:38.585"></status>
+</kw>
+<kw name="AND เลือกผู้ดูแลระบบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${menu_list_admin}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:38.588" level="INFO">Clicking element 'xpath=//*[@id="jetsContent"]/li[4]'.</msg>
+<status status="PASS" starttime="20200202 16:13:38.587" endtime="20200202 16:13:39.133"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:40.134" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:39.134" endtime="20200202 16:13:40.134"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:38.586" endtime="20200202 16:13:40.134"></status>
+</kw>
+<kw name="AND เลือกอาจารย์" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_teacher}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:40.137" level="INFO">Clicking element 'xpath=//*[@id="teacher"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:40.137" endtime="20200202 16:13:40.195"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:41.197" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:40.196" endtime="20200202 16:13:41.197"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:40.136" endtime="20200202 16:13:41.197"></status>
+</kw>
+<kw name="AND เลือกเมนูส่งออกผลการสอบ" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_menu_report}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:41.198" level="INFO">Clicking element 'xpath=//*[@id="exam-report"]'.</msg>
+<status status="PASS" starttime="20200202 16:13:41.198" endtime="20200202 16:13:41.573"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:42.574" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:41.573" endtime="20200202 16:13:42.574"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:41.198" endtime="20200202 16:13:42.574"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายการการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:42.575" level="INFO">Clicking element 'xpath=//*[@id="dataTable4"]/tbody/tr/td[7]/center/a'.</msg>
+<status status="PASS" starttime="20200202 16:13:42.575" endtime="20200202 16:13:42.887"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:43.889" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:42.887" endtime="20200202 16:13:43.889"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:42.575" endtime="20200202 16:13:43.889"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายละเอียดการสอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_list_exam_info}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:43.892" level="INFO">Clicking element 'xpath=//*[@id="list_exam"]/tr/td[7]/a[1]'.</msg>
+<status status="PASS" starttime="20200202 16:13:43.891" endtime="20200202 16:13:44.279"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:45.281" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:44.279" endtime="20200202 16:13:45.281"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:43.890" endtime="20200202 16:13:45.281"></status>
+</kw>
+<kw name="AND กดปุ่มแสดงรายละเอียดคำตอบ" library="Keywords-report">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_show_detail_answer}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:45.282" level="INFO">Clicking element 'xpath=//*[@id="dataTable4"]/tbody/tr/td[5]/a'.</msg>
+<status status="PASS" starttime="20200202 16:13:45.282" endtime="20200202 16:13:45.335"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:46.338" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:45.335" endtime="20200202 16:13:46.338"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:45.282" endtime="20200202 16:13:46.338"></status>
+</kw>
+<kw name="AND กดปุ่มยกเลิก" library="Keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_cancel}</arg>
+</arguments>
+<msg timestamp="20200202 16:13:46.340" level="INFO">Clicking element 'xpath=//*[@id="show_result_by_std_id"]/div[3]/div/div[3]/button'.</msg>
+<status status="PASS" starttime="20200202 16:13:46.340" endtime="20200202 16:13:46.409"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20200202 16:13:47.410" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200202 16:13:46.409" endtime="20200202 16:13:47.410"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:46.339" endtime="20200202 16:13:47.410"></status>
+</kw>
+<kw name="THEN ปิดเบราว์เซอร์" library="Keywords">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200202 16:13:47.411" endtime="20200202 16:13:49.481"></status>
+</kw>
+<status status="PASS" starttime="20200202 16:13:47.411" endtime="20200202 16:13:49.482"></status>
+</kw>
+<tags>
+<tag>PASS</tag>
+</tags>
+<status status="PASS" starttime="20200202 16:13:22.233" endtime="20200202 16:13:49.484" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200202 16:08:55.338" endtime="20200202 16:13:49.494"></status>
+</suite>
+<status status="PASS" starttime="20200202 16:08:55.314" endtime="20200202 16:13:49.504"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="12" fail="0">Critical Tests</stat>
+<stat pass="12" fail="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0">TEST</stat>
+<stat pass="12" fail="0">PASS</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="ส่งออกรายงานการสอบ">ส่งออกรายงานการสอบ</stat>
+<stat pass="12" fail="0" id="s1" name="ส่งออกรายงานการสอบ">ส่งออกรายงานการสอบ</stat>
+<stat pass="12" fail="0" id="s1-s1" name="ส่งออกรายงานการสอบ">ส่งออกรายงานการสอบ.ส่งออกรายงานการสอบ</stat>
 </suite>
 </statistics>
 <errors>
